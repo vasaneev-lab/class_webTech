@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>filter propperty</title>
+	<style type="text/css">
+		
+	.b{
+		height: 500px;
+		width: 300px;
+	}
+	.b1{
+		filter: blur(10px);
+	}
+	.mi{
+		filter: brightness(250%);
+	}
+	.p1{
+		filter: grayscale(100%);
+	}
+	.d2{
+		filter: contrast(200%);
+	}
+	.a5{
+		filter: opacity(70%);
+	}
+	.h1{
+		background-image: url(img10.jpg);
+		height: 1000px;
+		width: 1700px;
+	}
+
+	</style>
+</head>
+<body class="h1">
+<img src="img1.jpg" class="b p1">
+<img src="img2.jpg" class="b mi d2">
+<img src="img1.jpg" class="b b1 a5">
+<img src="img2.jpg" class="b mi ">
+
+</body>
+</html>
